@@ -1,0 +1,99 @@
+/* 全局样式  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    margin: auto;
+    width: 1200px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 内部样式 */
+.main3 {
+    margin-top: 10px;
+    height: 800px;
+
+}
+
+.list1 {
+    height: 50px;
+
+}
+
+.list1-left {
+    float: left;
+    padding: 15px 20px;
+
+    color: gray
+}
+
+.list1 a {
+    color: gray
+}
+
+.list1-right {
+    float: right;
+    padding: 15px 20px;
+}
+
+.list2 {
+    height: 700px;
+    background-color: rgb(179, 238, 102, 0.4);
+}
+
+.list2 ul {
+    padding: 10px 10px;
+    height: 700px;
+
+}
+
+.list2 ul li {
+
+    float: left;
+    margin: 25px 10px;
+    position: relative;
+
+    /* overflow: hidden; */
+
+    width: 270px;
+    height: 300px;
+}
+
+.list2 ul li img {
+    /* 确保图片与容器顶部对齐，消除可能的基线对齐影响 */
+    vertical-align: top;
+
+    width: 100%;
+    height: 150px;
+}
+
+.list2 ul li span {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    width: 50px;
+    height: 22px;
+    background-color: rgb(217, 255, 0, 0.7);
+}
+
+.list2 ul li p {
+    display: block;
+    box-shadow: inset 0px 20px 0px -10px rgba(0, 0, 0, 0.1);
+
+
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+
+    background-color: rgb(179, 238, 102, 0.2);
+
+}

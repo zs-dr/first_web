@@ -1,0 +1,119 @@
+/* 全局样式  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    margin: auto;
+    width: 1200px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+/* 头部导航栏 */
+.header {
+    margin-top: 10px;
+    height: 50px;
+    background-color: rgb(157, 239, 141,0.7);
+
+}
+
+.log {
+    float: left;
+    margin: 0 20px;
+
+    /* width: 50px; */
+    height: 50px;
+
+}
+
+.log img {
+
+    /* width: 100%; */
+    width: 50px;
+    height: 100%;
+
+}
+
+.nav {
+    float: left;
+    margin: 0 auto;
+    /* height: 80px; */
+}
+
+.nav ul {
+    float: left;
+}
+
+
+.nav li {
+    display: inline-block;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+
+.nav li a {
+    color: yellowgreen;
+    font-size: 14px;
+}
+
+
+/* 搜索框 */
+.div-search {
+
+    float: left;
+    margin-left: 100px;
+    width: 500px;
+    height: 50px;
+
+}
+
+.div-search input {
+
+    float: left;
+    margin-top: 8px;
+
+    border: 2px solid rgb(149, 149, 4);
+    border-right: 0;
+
+    width: 450px;
+    height: 30px;
+}
+
+.div-search button {
+
+    float: left;
+    margin-top: 8px;
+    margin-right: 0px;
+    width: 46px;
+    height: 32px;
+}
+
+/* 导航栏右边用护栏 */
+
+.usr {
+    float: right;
+    margin-right: 50px;
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.login {
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: 14px;
+    padding: 10px 10px;
+
+}
